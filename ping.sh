@@ -11,7 +11,7 @@ clear
 
 while :
 do
-        for address in $1 #$addresses
+        for address in $@ #$addresses
 	do
                 ping -c1 -W1 $address >> /dev/null
 		if [ $? -eq 1 ]
