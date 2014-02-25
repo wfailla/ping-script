@@ -24,5 +24,5 @@ do
 	echo -en "Press [CTRL+C] to stop..\033[K"
 	sleep 1
 	echo -en "\n\033[K"
-	echo  -en "\033[0;0H"
+	echo -en "\033[0;0H"
 done
